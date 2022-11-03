@@ -1,0 +1,5 @@
+Using a preformatted text, write a sumary of what you understood in today's class
+
+Push everything to github when you are done
+
+Then make a linkedin post about your day 1 and day 2 summary, tag me oooo and add the hash tag  #30daysofcodechallenge #html #css #frontend
