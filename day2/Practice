@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html></html>
+
+<title>Practical</title>
+<body>
+<a href="https://www.w3schools.com/">click here</a>
+<img src="">
+<pre>       Today's class was good with me learning new things about coding.
+    I shall be taking you in a brief lesson
+    Fristly, we have a tag for breaking line which is shown below
+    <br>
+    <br>
+    There's a tag used for Bi-directional overide
+    <bdo dir="rtl">Emmanuel</bdo>
+    the href"mailto" can make your email accessable by clicking
+    <a href="mailto:emmanueletini4u@gmail.com" title="mail me">
+        emmanueletini4u@gmail.com
+    </a>
+    There's a tag for abbreviation 
+    <abbr title="Standard Organisation of Nigeria">SON</abbr>
+    <ol>
+        <li>Headset</li>
+        <li>joystick</li>
+        <li>xbox360</li>
+    </ol>
+<!--NB: <ol> is an ordered list while <ul> is an unordered list-->
+    
+</pre>
+</body>
