@@ -1,0 +1,11 @@
+Create a table that has the headings id, language amd time frame
+then the data of this table should be at least 3 rows with the programming languages that 
+you wish to learn and the months you wish to complete 
+
+Download a tiny image of a star and link it to the web page 
+
+Show an example with the 2 types of HTML elements that we have
+
+Use a DIV to wrap everything within your body
+
+Link day3.html to this webpage using an iframe
