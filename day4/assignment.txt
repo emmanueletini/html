@@ -1,0 +1,6 @@
+1. Create a form that will enable me to login with my email address and password and their correct input types
+2. Create a navigation menu that will take me to the root of the various folders of your repo
+3. How do you strike through characters in HTML
+4. Add 5 HTML entities in an element with the id "assignment"
+5. Create a form that will enable me type in something using textarea and then a button to reset it
+6. Add a favicon to the page
