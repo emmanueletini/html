@@ -1,6 +1,7 @@
 
 
-/* h1{
+/* 
+h1{
     text-align: center;
     text-decoration: underline;
     color:blueviolet;
@@ -9,3 +10,11 @@
 p{
     font-size: large;
 }  */
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color:blueviolet;
+    font-family: cursive;
+}
+p{
+    font-size: large;
