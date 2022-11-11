@@ -1,0 +1,9 @@
+Create a horizontal and vertical table with the headings 'S/N, Admission Number and First name'
+
+Create a registration form with username, email and password
+
+Create a login form with email and password
+
+Create a box with CSS that has a radius of 20px
+
+Use margin in this page instead of <br/>
