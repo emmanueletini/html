@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link href="../day3/a-star.jpeg" rel="icon">
+    <style>
+        .input{
+            display: block;
+            border: 2px solid rgb(184, 181, 181);
+            border-radius: 5px;
+            width: 250px;
+            padding: 10px;
+        }
+        label{
+            font-family:Arial, Helvetica, sans-serif;
+            display: block;
+            font-weight: 300 !important;
+            margin-bottom: 5px;
+        }
+        .form-group{
+            margin-bottom: 10px;
+        }
+        button{
+            padding:10px;
+            border-width: 2px;
+            border-style: none;
+            width: 100px;
+            border-color: #00d1b2;
+            background-color: #00d1b2;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Registration form -->
+
+    <form id="form_register">
+        <div class="form-group">
+            <label> Enter your username</label>
+            <input class="input" type="text" placeholder="John" id="inp_username">
+        </div>
+        <div class="form-group">
+            <label>Enter your email</label>
+            <input  class="input" type="email" placeholder="email" id="inp_email">
+        </div>
+        <div class="form-group">
+            <label>Enter your password</label>
+            <input class="input" type="password" placeholder="password" id="inp_password">
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
