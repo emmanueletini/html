@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link href="./style" rel="stylesheet">
+    <link href="../day3/a-star.jpeg" rel="icon">
+</head>
+
+<body>
+    <style>
+        button {
+            background-color: #282A35;
+            padding: 10px;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: 10px;
+            cursor: pointer;
+            border: none;
+            width: 20%;
+            
+        }
+        li {
+            display: inline;
+            font-weight:bold
+
+        }
+        label{
+font-size: large;
+color: rgb(10, 70, 94);
+font-weight: bold;
+margin-bottom: 20px;
+        }
+        input{
+            padding:5px;
+            display: block;
+            border-radius: 5px;
+            background-color: skyblue;
+            border: none
+            width: 250px;
+        }
+        body{
+            background-color: burlywood;
+        }
+    </style>
+    <div><form>
+        <label>Enter Username</label>
+        <input type="text" placeholder="Etini..">
+        <label>Email</label>
+        <input type="email" placeholder="email">
+        <label>Password</label>
+        <input type="password" placeholder="passcode">
+        <button style="color:lightgreen ;">Submit</button>
+    </form><br><br>
+    </div>
+    <button>Report Error</button>
+    <button>Spaces</button>
+    <button>Upgrades</button>
+    <button>Newsletter</button>
+    <ul>
+        <li>Html Tutorial</li>
+        <li>Html Reference</li>
+        <li>Html Examples</li>
+        <li>Html Certificate</li>
+    </ul>
+</body>
+
+</html>
