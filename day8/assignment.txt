@@ -1,0 +1,5 @@
+Using a base tag, create a favicon to link the image (a star) in day 3
+
+Replicate the footer section of w3schools. (Just the buttons and nav links)
+
+Create a registration form
