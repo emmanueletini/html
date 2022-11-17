@@ -21,40 +21,55 @@
             cursor: pointer;
             border: none;
             width: 20%;
-            
-        }
-        li {
-            display: inline;
-            font-weight:bold
 
         }
-        label{
-font-size: large;
-color: rgb(10, 70, 94);
-font-weight: bold;
-margin-bottom: 20px;
+
+        li {
+            display: inline;
+            font-weight: bold
         }
-        input{
-            padding:5px;
+
+        label {
+            font-size: large;
+            color: rgb(10, 70, 94);
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 5px;
             display: block;
             border-radius: 5px;
             background-color: skyblue;
-            border: none
+            border: none;
             width: 250px;
         }
-        body{
+
+        body {
             background-color: burlywood;
         }
+        .form-group{
+            margin-bottom: 5px;
+        }
     </style>
-    <div><form>
-        <label>Enter Username</label>
-        <input type="text" placeholder="Etini..">
-        <label>Email</label>
-        <input type="email" placeholder="email">
-        <label>Password</label>
-        <input type="password" placeholder="passcode">
-        <button style="color:lightgreen ;">Submit</button>
-    </form><br><br>
+    <div>
+        <form>
+            <div class="form-group">
+                <label>Enter Username</label>
+                <input type="text" placeholder="Etini..">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" placeholder="passcode">
+            </div>
+           <div class="form-group">
+            <button style="color:lightgreen ;">Submit</button>
+           </div>
+        </form><br><br>
     </div>
     <button>Report Error</button>
     <button>Spaces</button>
