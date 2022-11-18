@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
-    <link href="./style" rel="stylesheet">
-
 </head>
 
 <body>
@@ -34,21 +32,21 @@
 
         label {
             display: block;
-            margin: 20px;
+
             font-weight: 600;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
         }
 
         input {
-            margin: 6px;
+
             border-radius: 5px;
-            border: none;
+            border-width: 2px;
             padding: 10px;
             width: 300px;
-            border-color:#04aa6d;
-            text-align: center;
-
+            border-color: rgb(165, 165, 165);
+            text-align: left;
+            border-style: solid;
         }
 
         small {
@@ -59,32 +57,37 @@
 
         span {
             text-align: left;
+        }
 
+        .form-group {
+            margin-bottom: 20px;
         }
     </style>
     <p>Log in</p>
     <form>
-        <div>
+        <div class="form-group">
             <label>Email</label>
             <input type="email" placeholder="emma@gmail.com">
         </div>
-        <div>
+        <div class="form-group">
             <label>Password</label>
             <input type="password" placeholder="password">
-            <span class="PasswordInput_show_pwd_btn__Ncc9S"><svg aria-hidden="true" focusable="false" data-prefix="far"
-                    data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" width="15" height="14"
-                    viewBox="0 0 640 512" class="svg-inline--fa fa-eye fa-w-18">
+            <span class="PasswordInput_show_pwd_btn__Ncc9S">
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="eye" role="img"
+                    xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 640 512"
+                    class="svg-inline--fa fa-eye fa-w-18">
                     <path fill="currentColor"
                         d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z">
                     </path>
-                </svg>Show </span>
+                </svg>Show 
+            </span>
         </div>
-        <div>
+        <div class="form-group">
             <button>Log in</button>
         </div>
     </form>
     <small>
-        Forgot password?
+        Forgot password? <a href=reset.html>Click here to reset
     </small>
 
 </body>
